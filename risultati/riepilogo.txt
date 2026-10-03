@@ -1,0 +1,43 @@
+PARTECIPANTI: 27    osservazioni: 108
+Build coperte: [1, 2, 3, 4]
+Esperienza con Skyrim: {'mai': 18, 'qualche_ora': 5, 'molte_ore': 4}
+
+--- COMPORTAMENTO ECONOMICO (media per condizione, n=27)
+            prezzo_pattuito  riserva  scarto_riserva  round
+condizione                                                 
+V                     50.00      NaN             NaN   0.00
+N                     49.13     46.5            2.63   2.26
+A                     46.45     42.5            3.95   1.63
+D                     62.53     61.7            0.83   4.07
+
+--- ABBANDONI (trattative chiuse senza accordo)
+  V: 0/27   N: 0/27   A: 0/27   D: 4/27
+
+--- PERCEZIONE (media per condizione, scala 1-7, n=27)
+            comportamento  relazione_sociale  intelligenza  emozione  memoria_percepita  direzione_relazione  collera_percepita  trattativa_percepita  credibilita
+condizione                                                                                                                                                        
+V                    4.50               1.37          1.16      1.24               1.16                 2.15               1.15                  1.00         2.10
+N                    6.20               5.70          5.48      5.85               4.88                 4.78               1.22                  6.33         6.21
+A                    6.15               6.52          6.54      6.17               6.58                 6.44               1.22                  6.67         6.19
+D                    5.98               6.56          6.47      6.17               6.63                 1.78               6.30                  6.63         6.20
+
+--- CONTROLLI PREVISTI DAL PIANO
+  memoria percepita  A,D > N > V     OK         V=1.16  N=4.88  A=6.58  D=6.63
+  controllo manipolazione: V < resto OK         V=1.00  N=6.33  A=6.67  D=6.63
+  collera percepita: D la piu' alta  OK         V=1.15  N=1.22  A=1.22  D=6.30
+  prezzo pattuito  A < N < D         OK         A=46.45  N=49.13  D=62.53
+
+--- QUESTIONARIO FINALE (conteggi)
+  ha notato differenze             {'si': 27}
+  il piu' ostile                   {'D': 27}
+  il piu' amichevole               {'A': 27}
+  sembrava ricordare               {'A': 15, 'D': 12}
+  trattativa piu' coinvolgente     {'D': 12, 'A': 12, 'N': 3}
+  attribuzione del prezzo          {'rapporto': 27}
+
+--- VALUTAZIONE DELLA MECCANICA (media, 1-7)
+  valore_soggettivo          5.79
+  coinvolgimento             6.39
+  preferenza_meccanica       6.26
+  attrito_latenza            2.52
+  attrito_riconoscimento     1.52

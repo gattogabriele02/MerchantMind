@@ -1,0 +1,43 @@
+LATENZA DEI COMPONENTI DURANTE LE SESSIONI SPERIMENTALI
+
+   righe nel file cumulativo: 4098
+   righe attribuite alle sessioni: 2861
+   sessioni coperte: 27 su 27
+   periodo: 21/08/2026 18:07 — 28/08/2026 11:49
+
+Le righe fuori finestra appartengono allo sviluppo e sono scartate.
+Ogni fase e' misurata separatamente: la somma NON e' un tempo di risposta
+misurato punto a punto, perche' le fasi si accavallano (la sintesi parte
+sulla prima frase mentre il modello sta ancora generando le successive).
+
+   fase                                             n   mediana      q1      q3     max
+   trascrizione del parlato (STT) — per battuta del giocatore   495      0,44    0,38    0,45    0,74
+   modello linguistico, prima parola — per battuta del mercante    97      0,39    0,26    0,44    3,70
+   modello linguistico, risposta intera — per battuta del mercante    97      2,10    1,50    2,63    5,46
+   sintesi vocale (TTS) — per frase pronunciata   670      1,36    0,84    1,93    4,50
+   MerchantMind: battuta di apertura — una per trattativa    87      0,20    0,18    0,22    1,20
+   MerchantMind: controfferta — per round         157      0,19    0,18    0,22    1,72
+   MerchantMind: chiusura — una per trattativa     87      0,18    0,16    0,20    1,65
+   MerchantMind: predizione dell'intento — per battuta   308      0,13    0,03    0,26    2,50
+   MerchantMind: riconoscimento dell'offerta — per battuta   308      0,12    0,07    0,17    1,99
+   MerchantMind: lettura del prezzo — per battuta   488      0,12    0,07    0,17    2,99
+   MerchantMind: richiesta di chiarimento — quando serve    67      0,20    0,17    0,22    1,84
+
+   catena percepita dal giocatore (mediane): trascrizione + prima parola del modello + prima frase sintetizzata
+      0,44 s  +  0,39 s  +  1,36 s  =  2,18 s
+
+   quanto pesa ciascuna fase sul totale delle attese misurate
+      modello linguistico, risposta intera           12,3%
+      modello linguistico, prima parola               2,9%
+      MerchantMind: richiesta di chiarimento          1,0%
+      MerchantMind: chiusura                          1,1%
+      MerchantMind: controfferta                      2,4%
+      MerchantMind: riconoscimento dell'offerta       2,8%
+      MerchantMind: predizione dell'intento           3,0%
+      MerchantMind: battuta di apertura               1,2%
+      MerchantMind: lettura del prezzo                4,7%
+      trascrizione del parlato (STT)                 12,0%
+      sintesi vocale (TTS)                           56,6%
+
+   attesa complessiva misurata per sessione (somma di tutte le fasi)
+      mediana 60,1 s   min 39,7 s   max 114,1 s

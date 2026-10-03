@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Dati grezzi per partecipante: non vanno versionati.
+# Il consenso informato promette conservazione anonimizzata.
+sessioni/
+
+# Sistema
+.DS_Store
+Thumbs.db

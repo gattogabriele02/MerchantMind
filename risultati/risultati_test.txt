@@ -1,0 +1,357 @@
+
+==============================================================================
+STUDIO MERCHANTMIND — TEST STATISTICI
+==============================================================================
+Partecipanti: 27    osservazioni: 108
+Disegno entro i soggetti, quattro condizioni: V = baratto vanilla, N = nessuna storia, A = memoria positiva, D = memoria negativa
+Riferimento di tutti i confronti: N. Correzione di Holm entro famiglia, alfa = 0,05.
+
+==============================================================================
+0. IL CAMPIONE
+==============================================================================
+   esperienza con Skyrim            {'mai': 18, 'qualche_ora': 5, 'molte_ore': 4}
+   conosce il commercio di Skyrim   {'no': 16, 'si': 7, 'sentito': 4}
+   genere                           {'uomo': 17, 'donna': 10}
+   altri giochi di ruolo            {'no': 21, 'qualcuno': 5, 'molti': 1}
+   usa assistenti vocali            {'ogni_tanto': 9, 'raramente': 9, 'spesso': 6, 'mai': 3}
+   ha gia' parlato con un NPC       {'mai': 27}
+   eta                              media 26,4  (min 18, max 51)
+   durata sessione (minuti)         media 28,7  (min 21, max 35)
+   build                            {1: 7, 2: 7, 3: 7, 4: 6}
+
+==============================================================================
+1. AFFIDABILITA DELLE DIMENSIONI (alfa di Cronbach)
+==============================================================================
+Solo le dimensioni con almeno due item. Le altre restano item singoli e
+si riportano come tali, senza alfa.
+
+   intelligenza           alfa = 0,981   (3 item, buona)
+   memoria_percepita      alfa = 0,986   (3 item, buona)
+   credibilita            alfa = 0,978   (3 item, buona)
+   emozione               alfa = 0,977   (2 item, buona)
+
+   Nota: l'alfa e' calcolata su tutte le osservazioni (partecipante x
+   condizione), quindi include la varianza fra condizioni. E' la stessa
+   convenzione usata dalla scala originale.
+
+==============================================================================
+2. COMPORTAMENTO ECONOMICO (H2)
+==============================================================================
+La condizione V e' esclusa dai confronti sul prezzo: il baratto vanilla
+dipende dall'Eloquenza del giocatore e non dallo stato relazionale, quindi
+non e' un livello omogeneo (cap. 6, §6.2). Resta nelle misure percettive.
+
+--- 2.0 Perche' test non parametrici -----------------------------------------
+Il piano prevede l'ANOVA a misure ripetute e, in caso di violazione delle
+assunzioni, l'alternativa non parametrica. Si verifica la normalita' delle
+differenze appaiate con Shapiro-Wilk.
+
+   prezzo_pattuito      N-A: W=0,966, p = 0,587   N-D: W=0,961, p = 0,491
+   scarto_riserva       N-A: W=0,966, p = 0,587   N-D: W=0,961, p = 0,491
+   round                N-A: W=0,906, p = 0,018  non normale   N-D: W=0,932, p = 0,079
+   credibilita          N-V: W=0,891, p = 0,008  non normale   N-A: W=0,869, p = 0,003  non normale   N-D: W=0,922, p = 0,043  non normale
+   memoria_percepita    N-V: W=0,924, p = 0,049  non normale   N-A: W=0,964, p = 0,447   N-D: W=0,932, p = 0,078
+
+   Lettura: per PREZZO e SCARTO le differenze appaiate sono compatibili con
+   la normalita', quindi si esegue l'ANOVA a misure ripetute prevista dal
+   piano, con Friedman come verifica di robustezza. Per i round e per le
+   misure percettive - ordinali per costruzione e in gran parte non normali -
+   si usano direttamente Friedman e Wilcoxon.
+
+--- 2.1 Prezzo pattuito ------------------------------------------------------
+   ANOVA a misure ripetute (n=23): F(2, 44) = 587,94, p < 0,001
+   Greenhouse-Geisser: epsilon = 0,860, p corretto < 0,001
+   eta quadro parziale = 0,964   eta quadro generalizzato = 0,932
+
+prezzo pattuito (oro) - verifica non parametrica
+   n=23 completi   mediane: N=49,00   A=47,00   D=62,00
+   Friedman: chi2(2) = 40,51, p < 0,001, W di Kendall = 0,881
+   N vs A: p < 0,001  (Holm < 0,001)  *  r = 0,773  mediana delle differenze = -3,00  n=22
+   N vs D: p < 0,001  (Holm < 0,001)  *  r = 0,876  mediana delle differenze = 14,00  n=23
+
+--- 2.2 Scarto fra prezzo pattuito e prezzo di riserva -----------------------
+Quanto il giocatore ha pagato sopra il minimo che il mercante avrebbe
+accettato: misura la conduzione della trattativa, non la condizione.
+
+   ANOVA a misure ripetute (n=23): F(2, 44) = 18,74, p < 0,001
+   Greenhouse-Geisser: epsilon = 0,860, p corretto < 0,001
+   eta quadro parziale = 0,460   eta quadro generalizzato = 0,304
+
+scarto dalla riserva (oro) - verifica non parametrica
+   n=23 completi   mediane: N=2,50   A=4,50   D=0,30
+   Friedman: chi2(2) = 24,80, p < 0,001, W di Kendall = 0,539
+   N vs A: p = 0,028  (Holm = 0,028)  *  r = 0,479  mediana delle differenze = 1,00  n=21
+   N vs D: p < 0,001  (Holm = 0,001)  *  r = 0,724  mediana delle differenze = -1,20  n=23
+
+--- 2.3 Numero di round ------------------------------------------------------
+round di trattativa
+   n=27 completi   mediane: N=2,00   A=1,00   D=4,00
+   Friedman: chi2(2) = 24,09, p < 0,001, W di Kendall = 0,446
+   N vs A: p = 0,028  (Holm = 0,028)  *  r = 0,568  mediana delle differenze = 0,00  n=15
+   N vs D: p = 0,002  (Holm = 0,003)  *  r = 0,688  mediana delle differenze = 2,00  n=21
+
+--- 2.4 Esito: affare o abbandono (Q di Cochran) -----------------------------
+   n=27   affari conclusi per condizione: V=27/27   N=27/27   A=27/27   D=23/27
+   Q di Cochran: Q(3) = 12,00, p = 0,007
+   N vs V: McNemar esatto p = 1,000  (Holm = 1,000)     coppie discordanti 0/0
+   N vs A: McNemar esatto p = 1,000  (Holm = 1,000)     coppie discordanti 0/0
+   N vs D: McNemar esatto p = 0,125  (Holm = 0,375)     coppie discordanti 0/4
+
+   Da leggere con attenzione: il test d'insieme rileva la differenza fra
+   le condizioni, il confronto a coppie no. Con quattro sole coppie
+   discordanti il McNemar esatto non puo' scendere sotto p = 0,125,
+   qualunque sia l'entita' dell'effetto: e' un limite di potenza, non
+   l'assenza di un effetto. Si riporta la proporzione con l'intervallo.
+      abbandoni in D: 4/27 = 14,8%  IC95% [5,9%, 32,5%]
+
+==============================================================================
+3. ESPERIENZA PERCEPITA (H4)
+==============================================================================
+Tutte le dimensioni del questionario per mercante, quattro condizioni.
+
+--- 3.x memoria_percepita ----------------------------------------------------
+memoria_percepita
+   n=27 completi   mediane: V=1,00   N=4,67   A=6,67   D=6,67
+   Friedman: chi2(3) = 70,13, p < 0,001, W di Kendall = 0,866
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,876  mediana delle differenze = -3,67  n=27
+   N vs A: p < 0,001  (Holm < 0,001)  *  r = 0,854  mediana delle differenze = 2,00  n=27
+   N vs D: p < 0,001  (Holm < 0,001)  *  r = 0,855  mediana delle differenze = 2,00  n=27
+
+--- 3.x credibilita ----------------------------------------------------------
+credibilita
+   n=27 completi   mediane: V=2,00   N=6,33   A=6,00   D=6,00
+   Friedman: chi2(3) = 56,35, p < 0,001, W di Kendall = 0,696
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,876  mediana delle differenze = -4,00  n=27
+   N vs A: p = 0,940  (Holm = 1,000)     r = 0,017  mediana delle differenze = 0,00  n=20
+   N vs D: p = 0,896  (Holm = 1,000)     r = 0,033  mediana delle differenze = 0,00  n=16
+
+--- 3.x intelligenza ---------------------------------------------------------
+intelligenza
+   n=27 completi   mediane: V=1,00   N=5,33   A=6,67   D=6,67
+   Friedman: chi2(3) = 68,96, p < 0,001, W di Kendall = 0,851
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,878  mediana delle differenze = -4,33  n=27
+   N vs A: p < 0,001  (Holm < 0,001)  *  r = 0,863  mediana delle differenze = 1,33  n=25
+   N vs D: p < 0,001  (Holm < 0,001)  *  r = 0,835  mediana delle differenze = 1,00  n=25
+
+--- 3.x relazione_sociale ----------------------------------------------------
+relazione_sociale
+   n=27 completi   mediane: V=1,00   N=6,00   A=7,00   D=7,00
+   Friedman: chi2(3) = 70,49, p < 0,001, W di Kendall = 0,870
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,889  mediana delle differenze = -5,00  n=27
+   N vs A: p < 0,001  (Holm < 0,001)  *  r = 0,906  mediana delle differenze = 1,00  n=15
+   N vs D: p < 0,001  (Holm < 0,001)  *  r = 0,917  mediana delle differenze = 1,00  n=17
+
+--- 3.x emozione -------------------------------------------------------------
+emozione
+   n=27 completi   mediane: V=1,00   N=6,00   A=6,00   D=6,00
+   Friedman: chi2(3) = 59,05, p < 0,001, W di Kendall = 0,729
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,880  mediana delle differenze = -4,50  n=27
+   N vs A: p = 0,038  (Holm = 0,075)     r = 0,477  mediana delle differenze = 0,50  n=19
+   N vs D: p = 0,068  (Holm = 0,075)     r = 0,409  mediana delle differenze = 0,50  n=20
+
+--- 3.x comportamento --------------------------------------------------------
+comportamento
+   n=27 completi   mediane: V=4,50   N=6,50   A=6,00   D=6,00
+   Friedman: chi2(3) = 44,00, p < 0,001, W di Kendall = 0,543
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,882  mediana delle differenze = -1,50  n=26
+   N vs A: p = 0,677  (Holm = 0,955)     r = 0,111  mediana delle differenze = 0,00  n=14
+   N vs D: p = 0,478  (Holm = 0,955)     r = 0,148  mediana delle differenze = 0,00  n=23
+
+--- 3.x direzione_relazione --------------------------------------------------
+direzione_relazione
+   n=27 completi   mediane: V=2,00   N=5,00   A=6,00   D=1,00
+   Friedman: chi2(3) = 68,67, p < 0,001, W di Kendall = 0,848
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,882  mediana delle differenze = -2,00  n=25
+   N vs A: p < 0,001  (Holm < 0,001)  *  r = 0,856  mediana delle differenze = 2,00  n=23
+   N vs D: p < 0,001  (Holm < 0,001)  *  r = 0,875  mediana delle differenze = -3,00  n=27
+
+--- 3.x collera_percepita ----------------------------------------------------
+collera_percepita
+   n=27 completi   mediane: V=1,00   N=1,00   A=1,00   D=6,00
+   Friedman: chi2(3) = 65,67, p < 0,001, W di Kendall = 0,811
+   N vs V: p = 0,527  (Holm = 1,000)     r = 0,200  mediana delle differenze = 0,00  n=10
+   N vs A: p = 1,000  (Holm = 1,000)     r = 0,000  mediana delle differenze = 0,00  n=8
+   N vs D: p < 0,001  (Holm < 0,001)  *  r = 0,888  mediana delle differenze = 5,00  n=27
+
+--- 3.x trattativa_percepita -------------------------------------------------
+trattativa_percepita
+   n=27 completi   mediane: V=1,00   N=6,00   A=7,00   D=7,00
+   Friedman: chi2(3) = 67,47, p < 0,001, W di Kendall = 0,833
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,902  mediana delle differenze = -5,00  n=27
+   N vs A: p = 0,007  (Holm = 0,013)  *  r = 0,959  mediana delle differenze = 0,00  n=8
+   N vs D: p = 0,033  (Holm = 0,033)  *  r = 0,645  mediana delle differenze = 0,00  n=11
+
+==============================================================================
+4. QUESTIONARIO FINALE — SCELTE FORZATE
+==============================================================================
+Confronto con la scelta casuale fra quattro condizioni (p = 0,25),
+test binomiale esatto, con intervallo di Wilson al 95%.
+
+   il piu' ostile: {'D': 27}
+      D: 27/27 = 100,0%  IC95% [87,5%, 100,0%]  binomiale contro 0,25: p < 0,001
+   il piu' amichevole: {'A': 27}
+      A: 27/27 = 100,0%  IC95% [87,5%, 100,0%]  binomiale contro 0,25: p < 0,001
+   sembrava ricordare qualcosa di me: {'A': 15, 'D': 12}
+      A: 15/27 = 55,6%  IC95% [37,3%, 72,4%]  binomiale contro 0,25: p < 0,001
+      A oppure D (una condizione con memoria): 27/27 = 100,0%  IC95% [87,5%, 100,0%]  binomiale contro 0,5: p < 0,001
+   trattativa piu' coinvolgente: {'D': 12, 'A': 12, 'N': 3}
+      D: 12/27 = 44,4%  IC95% [27,6%, 62,7%]  binomiale contro 0,25: p = 0,022
+
+   ha notato differenze fra i mercanti: 27/27 = 100,0%  IC95% [87,5%, 100,0%]  binomiale contro 0,5: p < 0,001
+
+   attribuzione del prezzo: {'rapporto': 27}
+      'rapporto': 27/27 = 100,0%  IC95% [87,5%, 100,0%]  binomiale contro 0,25: p < 0,001
+
+--- 4.x Classifica di credibilita (ordinamento 1-4) --------------------------
+   n=27   rango medio (1 = piu' 'vero'): V=4,00   N=2,48   A=1,70   D=1,81
+   Friedman: chi2(3) = 54,33, p < 0,001, W di Kendall = 0,671
+   N vs V: p < 0,001  (Holm < 0,001)  *  r = 0,899  n=27
+   N vs A: p = 0,005  (Holm = 0,010)  *  r = 0,540  n=27
+   N vs D: p = 0,017  (Holm = 0,017)  *  r = 0,460  n=27
+
+==============================================================================
+5. VALUTAZIONE DELLA MECCANICA (questionario finale, parte B)
+==============================================================================
+Punteggi 1-7, un valore per partecipante. Il confronto e' con il punto
+neutro della scala (4), test dei ranghi con segno di Wilcoxon.
+
+   valore soggettivo della trattativa (SVI)   mediana 5,75  media 5,79  p < 0,001  r = 0,877
+   coinvolgimento e immersione                mediana 6,25  media 6,39  p < 0,001  r = 0,880
+   preferenza sulla meccanica                 mediana 6,25  media 6,26  p < 0,001  r = 0,883
+   attrito: attese fra le battute             mediana 2,00  media 2,52  p < 0,001  r = 0,856
+   attrito: doversi ripetere                  mediana 1,00  media 1,52  p < 0,001  r = 0,933
+
+==============================================================================
+6. RELAZIONE FRA CONDUZIONE E RISULTATO
+==============================================================================
+Ipotesi emersa dai dati: lo scarto dalla riserva dipende da quanto il
+giocatore tratta, piu' che dalla condizione. Rho di Spearman.
+
+   round x scarto, tutte le condizioni: n=77  rho = -0,547, p < 0,001
+   solo condizione N: n=27  rho = -0,519, p = 0,006
+   solo condizione A: n=27  rho = -0,170, p = 0,398
+   solo condizione D: n=23  rho = -0,443, p = 0,034
+   memoria percepita x scarto (senza V): n=77  rho = -0,065, p = 0,575
+
+==============================================================================
+7. CONTROLLO: EFFETTO DELLA POSIZIONE NELLA SEQUENZA
+==============================================================================
+Il quadrato latino dovrebbe averlo annullato. Si verifica sulle misure
+che non dipendono dalla condizione per costruzione.
+
+   credibilita        n=27  posizioni=4  chi2 = 1,22, p = 0,749, W = 0,015   nessun effetto
+   round              n=27  posizioni=4  chi2 = 0,71, p = 0,870, W = 0,009   nessun effetto
+
+==============================================================================
+8. MODERATORE: ESPERIENZA CON SKYRIM (tre scenari di peso)
+==============================================================================
+Regola fissata prima della raccolta: se le conclusioni coincidono nei tre
+scenari l'effetto e' robusto e si riporta il solo scenario uniforme.
+
+   numerosita dei gruppi: {'mai': 18, 'qualche_ora': 5, 'molte_ore': 4}
+
+   memoria_percepita
+      uniforme     V=1,16   N=4,88   A=6,58   D=6,63
+      pro esperti  V=1,22   N=5,00   A=6,54   D=6,58
+      pro neofiti  V=1,12   N=4,80   A=6,60   D=6,66
+
+   credibilita
+      uniforme     V=2,10   N=6,21   A=6,19   D=6,20
+      pro esperti  V=2,22   N=6,24   A=6,15   D=6,18
+      pro neofiti  V=2,03   N=6,19   A=6,21   D=6,21
+
+   scarto_riserva
+      uniforme     V=n.d.   N=2,63   A=3,95   D=0,83
+      pro esperti  V=n.d.   N=2,85   A=3,76   D=0,96
+      pro neofiti  V=n.d.   N=2,50   A=4,07   D=0,76
+
+   Con 18 partecipanti su 27 senza esperienza, lo scenario 'pro esperti'
+   poggia su 4 casi: la sua stabilita' va dichiarata fra i limiti.
+
+==============================================================================
+9. PREDIZIONE DELL'INTENTO DEL COMPRATORE (H1, RQ1)
+==============================================================================
+   Predizioni valutabili: 141 su 27 sessioni
+   Accuratezza top-1: 18,4%
+
+   Distribuzione del predetto contro l'osservato:
+      observed_outcome        accept_quickly  haggle_hard  walkaway_likely
+      predicted_top                                                       
+      accept_quickly                      18           27                3
+      bundle_interest                      1            0                0
+      haggle_hard                          1            6                0
+      intelligence_gathering              20           52                1
+      walkaway_likely                      4            6                2
+
+   Classi effettivamente osservabili: 3 (accept_quickly, haggle_hard, walkaway_likely)
+   Riferimento 'classe piu' frequente': 64,5% (haggle_hard)
+   Riferimento 'scelta casuale fra 5 etichette': 20,0%
+   accuratezza contro il caso: 26/141 = 18,4%  IC95% [12,9%, 25,6%]  binomiale contro 0,2: p = 0,710
+
+   RISULTATO NEGATIVO, da riportare come tale. L'accuratezza non supera
+   la scelta casuale ed e' molto al di sotto della semplice regola
+   'prevedi sempre la classe piu' frequente'. La causa principale e'
+   visibile nella tabella: l'etichetta 'intelligence_gathering' viene
+   predetta in oltre meta' dei casi ma non e' mai osservabile in un
+   protocollo in cui si acquista un solo oggetto (cap. 6, §6.6).
+
+   H1 (la storia individuale migliora la predizione) NON e' verificabile
+   con questi soli dati: richiede l'ablazione con e senza storia sugli
+   stessi enunciati (scripts/run_intent_ablation.py), che ha bisogno del
+   modello linguistico attivo e va eseguita a parte.
+
+==============================================================================
+10. QUALITA DEI MECCANISMI DI MEMORIA (H3, RQ3)
+==============================================================================
+   Battute generate dal modello linguistico: 227
+   Anomalie rilevate automaticamente: 0
+   Tasso: 0 per 100 battute   IC95% [0,0%, 1,66%]
+   H3 sulla soglia del 15% e' ampiamente rispettata. Va pero' dichiarato
+   che si tratta di un rilevatore automatico con categorie fisse
+   (ragionamento trapelato, rottura di personaggio, numeri inventati):
+   misura l'assenza di quelle anomalie, non la qualita' del dialogo.
+
+   Ricordi creati durante le sessioni: 81
+   Importanza e velocita' di oblio per tipo di evento:
+                             n  importanza_media  oblio_medio
+      type                                                   
+      first_purchase        47             0.323        0.068
+      negotiation_hard      30             0.440        0.056
+      negotiation_walkaway   4             0.565        0.044
+
+   Importanza x velocita' di oblio: rho = -1,000, p < 0,001
+   Atteso negativo: piu' un ricordo e' importante, piu' lentamente svanisce.
+
+   Cicli di riflessione osservati: 0 sessioni su 27.
+   Nessuno: la riflessione si innesca su una storia piu' lunga di una
+   singola sessione. La parte di H3 sulla pertinenza delle sintesi resta
+   quindi non verificata, e va dichiarato.
+
+==============================================================================
+11. RIEPILOGO DELLE IPOTESI
+==============================================================================
+   H1  predizione dell'intento migliorata dalla storia
+       NON VERIFICATA - accuratezza al 18,4%, sotto il caso; l'ablazione
+       con e senza storia resta da eseguire.
+
+   H2  la memoria muove prezzo e comportamento
+       CONFERMATA - prezzo pattuito e scarto dalla riserva separano le tre
+       condizioni con negoziazione, effetti molto grandi; abbandoni solo in D.
+
+   H3  qualita' dei meccanismi di memoria
+       PARZIALE - zero anomalie su tutte le battute generate; oblio
+       differenziale coerente col modello; riflessione e allineamento della
+       salienza col giudizio umano non verificati in questo disegno.
+
+   H4  esperienza percepita
+       CONFERMATA IN PARTE - memoria percepita, intelligenza, relazione
+       sociale e direzione del rapporto separano nettamente le condizioni;
+       la credibilita' complessiva NO: distingue solo il baratto vanilla
+       dalle tre condizioni conversazionali, che fra loro sono equivalenti.
+
+==============================================================================
+9. TABELLE SALVATE
+==============================================================================
+   analisi/tabelle_comportamento.csv   descrittive di D1
+   analisi/tabelle_percezione.csv      descrittive di D2 e D3
+   analisi/risultati_test.txt          questo documento

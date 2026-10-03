@@ -1,0 +1,5 @@
+condizione,prezzo_pattuito_n,prezzo_pattuito_mediana,prezzo_pattuito_media,prezzo_pattuito_ds,scarto_riserva_n,scarto_riserva_mediana,scarto_riserva_media,scarto_riserva_ds,round_n,round_mediana,round_media,round_ds
+V,27,50.0,50.0,0.0,0,,,,27,0.0,0.0,0.0
+N,27,49.44,49.13,1.78,27,2.94,2.63,1.78,27,2.0,2.26,1.32
+A,27,47.0,46.45,2.67,27,4.5,3.95,2.67,27,1.0,1.63,1.01
+D,23,62.0,62.53,1.03,23,0.3,0.83,1.03,27,4.0,4.07,2.2

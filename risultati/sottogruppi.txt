@@ -1,0 +1,287 @@
+ANALISI PER SOTTOGRUPPO E RISPOSTE APERTE — studio MerchantMind
+27 sessioni, 108 osservazioni, 27 questionari completi
+
+==============================================================================
+SOTTOGRUPPI DEL CAMPIONE
+==============================================================================
+
+Tutti i confronti fra sottogruppi sono ESPLORATIVI: il piano prevedeva
+pesi per esperienza, non test separati, e i gruppi sono piccoli.
+
+--- esperienza con Skyrim: mai giocato (n=18) contro ha giocato (n=9) ---------
+  prezzo pattuito, mediana per condizione
+   mai giocato                      n=18   V=50,00   N=49,22   A=47,00   D=62,00
+   ha giocato                       n= 9   V=50,00   N=50,00   A=44,00   D=62,00
+  memoria percepita, mediana per condizione
+   mai giocato                      n=18   V=1,00   N=4,50   A=6,67   D=6,83
+   ha giocato                       n= 9   V=1,00   N=4,67   A=6,33   D=6,67
+  credibilita complessiva, mediana per condizione
+   mai giocato                      n=18   V=2,00   N=6,00   A=6,33   D=6,17
+   ha giocato                       n= 9   V=2,33   N=6,33   A=6,00   D=6,00
+
+  effetto della memoria sul prezzo (differenza rispetto a N, per persona)
+   prezzo             A−N   mai giocato: mediana -2,72   ha giocato: mediana -3,78   U=108,5, p = 0,163, r=0,340
+   prezzo             D−N   mai giocato: mediana 14,00   ha giocato: mediana 13,85   U=67,5, p = 0,650, r=0,125
+   memoria percepita  A−N   mai giocato: mediana 1,83   ha giocato: mediana 2,00   U=97,5, p = 0,408, r=0,204
+   memoria percepita  D−N   mai giocato: mediana 2,00   ha giocato: mediana 2,00   U=97,0, p = 0,422, r=0,198
+
+  N contro A e N contro D sul prezzo, dentro ciascun gruppo
+   mai giocato                      N vs A: p = 0,006 (Holm = 0,006)  *  r=0,653  n=18
+   mai giocato                      N vs D: p < 0,001 (Holm = 0,001)  *  r=0,881  n=15
+   ha giocato                       N vs A: p = 0,012 (Holm = 0,023)  *  r=0,892  n=8
+   ha giocato                       N vs D: p = 0,012 (Holm = 0,023)  *  r=0,892  n=8
+
+  valutazione della meccanica (un valore per persona, scala 1-7)
+   valore_soggettivo        mai giocato: 5,88   ha giocato: 5,50   U=117,0, p = 0,064, r=0,444
+   coinvolgimento           mai giocato: 6,25   ha giocato: 6,50   U=81,5, p = 1,000, r=0,006
+   preferenza_meccanica     mai giocato: 6,00   ha giocato: 6,25   U=70,0, p = 0,573, r=0,136
+   attrito_latenza          mai giocato: 2,00   ha giocato: 3,00   U=83,0, p = 0,937, r=0,025
+   attrito_riconoscimento   mai giocato: 1,00   ha giocato: 1,00   U=90,5, p = 0,547, r=0,117
+
+--- conoscenza del commercio di Skyrim: non lo conosce (n=16) contro lo conosce o ne ha sentito (n=11) 
+  prezzo pattuito, mediana per condizione
+   non lo conosce                   n=16   V=50,00   N=49,22   A=47,25   D=62,00
+   lo conosce o ne ha sentito       n=11   V=50,00   N=50,00   A=44,00   D=62,00
+  memoria percepita, mediana per condizione
+   non lo conosce                   n=16   V=1,00   N=4,33   A=6,67   D=6,83
+   lo conosce o ne ha sentito       n=11   V=1,00   N=5,00   A=6,33   D=6,67
+  credibilita complessiva, mediana per condizione
+   non lo conosce                   n=16   V=2,00   N=6,17   A=6,33   D=6,17
+   lo conosce o ne ha sentito       n=11   V=2,33   N=6,33   A=6,00   D=6,00
+
+  effetto della memoria sul prezzo (differenza rispetto a N, per persona)
+   prezzo             A−N   non lo conosce: mediana -2,22   lo conosce o ne ha sentito: mediana -3,78   U=126,0, p = 0,063, r=0,432
+   prezzo             D−N   non lo conosce: mediana 13,78   lo conosce o ne ha sentito: mediana 14,00   U=60,5, p = 0,899, r=0,040
+   memoria percepita  A−N   non lo conosce: mediana 2,00   lo conosce o ne ha sentito: mediana 1,33   U=117,0, p = 0,157, r=0,330
+   memoria percepita  D−N   non lo conosce: mediana 2,17   lo conosce o ne ha sentito: mediana 2,00   U=114,0, p = 0,205, r=0,295
+
+  N contro A e N contro D sul prezzo, dentro ciascun gruppo
+   non lo conosce                   N vs A: p = 0,017 (Holm = 0,017)  *  r=0,596  n=16
+   non lo conosce                   N vs D: p < 0,001 (Holm = 0,002)  *  r=0,882  n=14
+   lo conosce o ne ha sentito       N vs A: p = 0,005 (Holm = 0,010)  *  r=0,889  n=10
+   lo conosce o ne ha sentito       N vs D: p = 0,008 (Holm = 0,010)  *  r=0,889  n=9
+
+  valutazione della meccanica (un valore per persona, scala 1-7)
+   valore_soggettivo        non lo conosce: 5,88   lo conosce o ne ha sentito: 5,50   U=126,0, p = 0,060, r=0,432
+   coinvolgimento           non lo conosce: 6,25   lo conosce o ne ha sentito: 6,50   U=91,5, p = 0,879, r=0,040
+   preferenza_meccanica     non lo conosce: 6,00   lo conosce o ne ha sentito: 6,25   U=72,5, p = 0,439, r=0,176
+   attrito_latenza          non lo conosce: 2,00   lo conosce o ne ha sentito: 3,00   U=89,5, p = 0,959, r=0,017
+   attrito_riconoscimento   non lo conosce: 1,00   lo conosce o ne ha sentito: 1,00   U=104,5, p = 0,305, r=0,188
+
+--- altri giochi di ruolo: nessuno (n=21) contro qualcuno o molti (n=6) -------
+  prezzo pattuito, mediana per condizione
+   nessuno                          n=21   V=50,00   N=48,00   A=47,00   D=62,00
+   qualcuno o molti                 n= 6   V=50,00   N=50,00   A=46,00   D=63,00
+  memoria percepita, mediana per condizione
+   nessuno                          n=21   V=1,00   N=4,33   A=6,67   D=6,67
+   qualcuno o molti                 n= 6   V=1,00   N=4,83   A=6,50   D=6,50
+  credibilita complessiva, mediana per condizione
+   nessuno                          n=21   V=2,00   N=6,00   A=6,33   D=6,00
+   qualcuno o molti                 n= 6   V=2,50   N=6,33   A=6,00   D=6,00
+
+  effetto della memoria sul prezzo (differenza rispetto a N, per persona)
+   prezzo             A−N   nessuno: mediana -3,00   qualcuno o molti: mediana -4,34   U=84,0, p = 0,230, r=0,333
+   prezzo             D−N   nessuno: mediana 14,00   qualcuno o molti: mediana 13,00   U=59,5, p = 0,573, r=0,167
+   memoria percepita  A−N   nessuno: mediana 2,00   qualcuno o molti: mediana 1,67   U=81,5, p = 0,291, r=0,294
+   memoria percepita  D−N   nessuno: mediana 2,00   qualcuno o molti: mediana 1,67   U=87,0, p = 0,167, r=0,381
+
+  N contro A e N contro D sul prezzo, dentro ciascun gruppo
+   nessuno                          N vs A: p = 0,001 (Holm = 0,001)  *  r=0,711  n=21
+   nessuno                          N vs D: p < 0,001 (Holm < 0,001)  *  r=0,880  n=17
+   qualcuno o molti                 N vs A: p = 0,043 (Holm = 0,055)     r=0,905  n=5
+   qualcuno o molti                 N vs D: p = 0,028 (Holm = 0,055)     r=0,899  n=6
+
+  valutazione della meccanica (un valore per persona, scala 1-7)
+   valore_soggettivo        nessuno: 5,75   qualcuno o molti: 5,50   U=85,5, p = 0,193, r=0,357
+   coinvolgimento           nessuno: 6,25   qualcuno o molti: 6,25   U=74,5, p = 0,509, r=0,183
+   preferenza_meccanica     nessuno: 6,25   qualcuno o molti: 6,12   U=70,0, p = 0,692, r=0,111
+   attrito_latenza          nessuno: 2,00   qualcuno o molti: 2,50   U=69,5, p = 0,718, r=0,103
+   attrito_riconoscimento   nessuno: 1,00   qualcuno o molti: 1,00   U=62,0, p = 0,970, r=0,016
+
+--- uso di assistenti vocali: mai o raramente (n=12) contro ogni tanto o spesso (n=15) 
+  prezzo pattuito, mediana per condizione
+   mai o raramente                  n=12   V=50,00   N=49,72   A=47,00   D=62,00
+   ogni tanto o spesso              n=15   V=50,00   N=48,00   A=45,00   D=62,00
+  memoria percepita, mediana per condizione
+   mai o raramente                  n=12   V=1,00   N=4,33   A=6,67   D=7,00
+   ogni tanto o spesso              n=15   V=1,00   N=4,67   A=6,33   D=6,67
+  credibilita complessiva, mediana per condizione
+   mai o raramente                  n=12   V=2,00   N=6,17   A=6,00   D=6,00
+   ogni tanto o spesso              n=15   V=2,00   N=6,33   A=6,33   D=6,33
+
+  effetto della memoria sul prezzo (differenza rispetto a N, per persona)
+   prezzo             A−N   mai o raramente: mediana -2,72   ogni tanto o spesso: mediana -3,00   U=98,0, p = 0,713, r=0,089
+   prezzo             D−N   mai o raramente: mediana 13,56   ogni tanto o spesso: mediana 14,00   U=51,0, p = 0,370, r=0,227
+   memoria percepita  A−N   mai o raramente: mediana 2,17   ogni tanto o spesso: mediana 1,33   U=121,5, p = 0,128, r=0,350
+   memoria percepita  D−N   mai o raramente: mediana 2,33   ogni tanto o spesso: mediana 1,67   U=121,0, p = 0,134, r=0,344
+
+  N contro A e N contro D sul prezzo, dentro ciascun gruppo
+   mai o raramente                  N vs A: p = 0,015 (Holm = 0,015)  *  r=0,704  n=12
+   mai o raramente                  N vs D: p = 0,003 (Holm = 0,007)  *  r=0,886  n=11
+   ogni tanto o spesso              N vs A: p = 0,003 (Holm = 0,004)  *  r=0,798  n=14
+   ogni tanto o spesso              N vs D: p = 0,002 (Holm = 0,004)  *  r=0,884  n=12
+
+  valutazione della meccanica (un valore per persona, scala 1-7)
+   valore_soggettivo        mai o raramente: 5,75   ogni tanto o spesso: 5,50   U=106,5, p = 0,428, r=0,183
+   coinvolgimento           mai o raramente: 6,12   ogni tanto o spesso: 6,50   U=66,0, p = 0,237, r=0,267
+   preferenza_meccanica     mai o raramente: 6,00   ogni tanto o spesso: 6,25   U=74,0, p = 0,429, r=0,178
+   attrito_latenza          mai o raramente: 2,00   ogni tanto o spesso: 3,00   U=85,5, p = 0,840, r=0,050
+   attrito_riconoscimento   mai o raramente: 1,00   ogni tanto o spesso: 1,00   U=120,5, p = 0,057, r=0,339
+
+--- genere: uomini (n=17) contro donne (n=10) ---------------------------------
+  prezzo pattuito, mediana per condizione
+   uomini                           n=17   V=50,00   N=49,44   A=47,00   D=62,00
+   donne                            n=10   V=50,00   N=48,72   A=45,50   D=62,00
+  memoria percepita, mediana per condizione
+   uomini                           n=17   V=1,00   N=4,67   A=6,67   D=6,67
+   donne                            n=10   V=1,00   N=4,67   A=6,67   D=6,83
+  credibilita complessiva, mediana per condizione
+   uomini                           n=17   V=2,00   N=6,00   A=6,00   D=6,00
+   donne                            n=10   V=1,67   N=6,33   A=6,50   D=6,33
+
+  effetto della memoria sul prezzo (differenza rispetto a N, per persona)
+   prezzo             A−N   uomini: mediana -3,00   donne: mediana -3,00   U=85,5, p = 1,000, r=0,006
+   prezzo             D−N   uomini: mediana 13,70   donne: mediana 14,23   U=49,0, p = 0,496, r=0,183
+   memoria percepita  A−N   uomini: mediana 1,67   donne: mediana 2,00   U=76,5, p = 0,686, r=0,100
+   memoria percepita  D−N   uomini: mediana 2,00   donne: mediana 2,00   U=83,5, p = 0,960, r=0,018
+
+  N contro A e N contro D sul prezzo, dentro ciascun gruppo
+   uomini                           N vs A: p = 0,002 (Holm = 0,002)  *  r=0,790  n=16
+   uomini                           N vs D: p < 0,001 (Holm = 0,001)  *  r=0,882  n=15
+   donne                            N vs A: p = 0,021 (Holm = 0,023)  *  r=0,727  n=10
+   donne                            N vs D: p = 0,012 (Holm = 0,023)  *  r=0,892  n=8
+
+  valutazione della meccanica (un valore per persona, scala 1-7)
+   valore_soggettivo        uomini: 5,50   donne: 5,88   U=46,0, p = 0,050, r=0,459
+   coinvolgimento           uomini: 6,25   donne: 6,88   U=46,5, p = 0,049, r=0,453
+   preferenza_meccanica     uomini: 6,00   donne: 6,62   U=54,5, p = 0,115, r=0,359
+   attrito_latenza          uomini: 3,00   donne: 2,00   U=105,5, p = 0,300, r=0,241
+   attrito_riconoscimento   uomini: 1,00   donne: 1,00   U=79,5, p = 0,744, r=0,065
+
+==============================================================================
+ESPERIENZA CON SKYRIM COME GRADIENTE (tre livelli)
+==============================================================================
+
+--- descrittive per livello ---------------------------------------------------
+   mai            n=18   prezzo: V=50,00   N=49,22   A=47,00   D=62,00
+   qualche_ora    n= 5   prezzo: V=50,00   N=48,00   A=44,00   D=61,85
+   molte_ore      n= 4   prezzo: V=50,00   N=50,00   A=46,50   D=63,23
+   mai            n=18   memoria percepita: V=1,00   N=4,50   A=6,67   D=6,83
+   qualche_ora    n= 5   memoria percepita: V=1,00   N=4,67   A=6,67   D=6,67
+   molte_ore      n= 4   memoria percepita: V=1,00   N=5,17   A=6,17   D=6,17
+
+--- correlazione fra esperienza e valutazione (Spearman) ----------------------
+   esperienza × valore_soggettivo        rho = -0,386, p = 0,046
+   esperienza × coinvolgimento           rho = -0,026, p = 0,896
+   esperienza × preferenza_meccanica     rho = 0,086, p = 0,668
+   esperienza × attrito_latenza          rho = -0,017, p = 0,931
+   esperienza × attrito_riconoscimento   rho = -0,117, p = 0,562
+   esperienza × durata_minuti            rho = 0,048, p = 0,813
+
+--- il prezzo del baratto vanilla, che dipende dall'Eloquenza -----------------
+   valori distinti: [50.0]
+
+==============================================================================
+TEST DI TENDENZA SULL'ORDINAMENTO PREVISTO DA H2
+==============================================================================
+
+H2 prevede A < N < D sul prezzo pattuito. L'ordinamento e' fissato prima
+della raccolta, quindi il test appropriato e' di tendenza e a una coda.
+   prezzo pattuito        ordine A < N < D   n=23   L = 318,5   z = 6,27   p (una coda) < 0,001
+   round di trattativa    ordine A < N < D   n=27   L = 356,0   z = 4,35   p (una coda) < 0,001
+
+==============================================================================
+DINAMICA DELLA TRATTATIVA: DURATA E BATTUTE
+==============================================================================
+
+--- durata della trattativa, in secondi ---------------------------------------
+   N   n=27   mediana 34,0   media 40,0   min 17   max 91
+   A   n=27   mediana 28,0   media 31,3   min 18   max 61
+   D   n=27   mediana 63,0   media 63,7   min 15   max 139
+   Friedman: chi2(2) = 15,87, p < 0,001, W di Kendall = 0,294
+   N vs A: p = 0,042 (Holm = 0,042)  *  r = 0,399  n=26
+   N vs D: p = 0,002 (Holm = 0,005)  *  r = 0,583  n=27
+
+--- battute scambiate ---------------------------------------------------------
+   turni registrati in totale: 454   di cui del mercante: 227
+   N   battute totali 128   mediana per trattativa 4
+   A   battute totali  92   mediana per trattativa 2
+   D   battute totali 234   mediana per trattativa 8
+
+==============================================================================
+ITEM PER ITEM
+==============================================================================
+
+--- questionario per mercante, 17 item, mediana per condizione ----------------
+   i01   V=2,00   N=6,00   A=6,00   D=6,00
+   i02   V=1,00   N=1,00   A=2,00   D=2,00
+   i03   V=1,00   N=6,00   A=7,00   D=7,00
+   i04   V=1,00   N=6,00   A=6,00   D=6,00
+   i05   V=1,00   N=5,00   A=7,00   D=7,00
+   i06   V=1,00   N=6,00   A=7,00   D=7,00
+   i07   V=1,00   N=6,00   A=6,00   D=6,00
+   i08   V=1,00   N=6,00   A=6,00   D=6,00
+   i09   V=1,00   N=5,00   A=7,00   D=7,00
+   i10   V=1,00   N=4,00   A=7,00   D=7,00
+   i11   V=1,00   N=5,00   A=6,00   D=7,00
+   i12   V=2,00   N=5,00   A=6,00   D=1,00
+   i13   V=1,00   N=1,00   A=1,00   D=6,00
+   i14   V=1,00   N=6,00   A=7,00   D=7,00
+   i15   V=2,00   N=6,00   A=6,00   D=6,00
+   i16   V=2,00   N=6,00   A=6,00   D=6,00
+   i17   V=3,00   N=6,00   A=6,00   D=6,00
+
+--- questionario finale parte B, 14 item, mediana e media ---------------------
+   b01   mediana=6,00   media=6,15   min=5  max=7
+   b02   mediana=6,00   media=5,74   min=4  max=7
+   b03   mediana=6,00   media=5,78   min=4  max=7
+   b04   mediana=5,00   media=5,48   min=4  max=7
+   b05   mediana=6,00   media=6,33   min=5  max=7
+   b06   mediana=6,00   media=6,22   min=5  max=7
+   b07   mediana=6,00   media=6,41   min=5  max=7
+   b08   mediana=7,00   media=6,59   min=5  max=7
+   b09   mediana=6,00   media=6,22   min=4  max=7
+   b10   mediana=6,00   media=6,37   min=4  max=7
+   b11   mediana=6,00   media=6,26   min=4  max=7
+   b12   mediana=6,00   media=6,19   min=4  max=7
+   b13   mediana=2,00   media=2,52   min=1  max=5
+   b14   mediana=1,00   media=1,52   min=1  max=4
+
+--- scelte forzate del questionario finale ------------------------------------
+   a1_differenze        {'si': 27}
+   a4_ostile            {'D': 27}
+   a4_amichevole        {'A': 27}
+   a5_ricordava         {'A': 15, 'D': 12}
+   a6_coinvolgente      {'D': 12, 'A': 12, 'N': 3}
+   a7_attribuzione      {'rapporto': 27}
+
+==============================================================================
+RISPOSTE APERTE
+==============================================================================
+
+Spoglio LESSICALE AUTOMATICO, non la codifica a due codificatori
+prevista dal piano: conta la presenza di famiglie di parole, e va
+riportato come tale. Serve a dire quante persone nominano un tema
+SENZA che nessun item glielo abbia suggerito.
+
+   risposte totali: 214   partecipanti: 27
+
+--- impressione sul mercante: temi nominati spontaneamente, per condizione ----
+   tema                V            N            A            D
+   memoria     0/27 ( 0.0%)    1/27 ( 3.7%)    4/27 (14.8%)    4/27 (14.8%)
+   prezzo     13/27 (48.1%)   15/27 (55.6%)   18/27 (66.7%)   18/27 (66.7%)
+   tono        0/27 ( 0.0%)    2/27 ( 7.4%)    2/27 ( 7.4%)    5/27 (18.5%)
+   tecnico     0/27 ( 0.0%)    0/27 ( 0.0%)    0/27 ( 0.0%)    0/27 ( 0.0%)
+
+--- domande aperte finali: temi nominati --------------------------------------
+   Finale 2 — in che cosa erano diversi
+      memoria 6/27   prezzo 19/27   tono 0/27   tecnico 0/27
+   Finale 8 — qualcosa che non tornava
+      memoria 0/27   prezzo 5/27   tono 1/27   tecnico 0/27
+   Finale B — altro
+      memoria 0/25   prezzo 5/25   tono 0/25   tecnico 0/25
+   Finale B — cosa cambieresti
+      memoria 1/27   prezzo 5/27   tono 1/27   tecnico 0/27
+
+--- lunghezza delle risposte --------------------------------------------------
+   parole per risposta: mediana 12, min 1, max 71

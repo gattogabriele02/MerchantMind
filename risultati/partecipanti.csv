@@ -1,0 +1,28 @@
+partecipante,build,eta,genere,lingua_madre,ore_gioco,esperienza_skyrim,conosce_commercio,altri_gdr,assistenti_vocali,parlato_npc,prezzo_vanilla,durata_minuti,note,a1_differenze,a3_ordine_1,a3_ordine_2,a3_ordine_3,a3_ordine_4,a4_ostile,a4_amichevole,a5_ricordava,a6_coinvolgente,a7_attribuzione,b01,b02,b03,b04,b05,b06,b07,b08,b09,b10,b11,b12,b13,b14,valore_soggettivo,coinvolgimento,preferenza_meccanica,attrito_latenza,attrito_riconoscimento
+P01,1,23,uomo,Italiano,<2,mai,no,no,spesso,mai,50.0,23,,si,D,A,N,V,D,A,A,D,rapporto,6.0,6.0,5.0,4.0,7.0,7.0,7.0,7.0,4.0,7.0,7.0,6.0,4.0,1.0,5.25,7.0,6.0,4.0,1.0
+P02,2,21,uomo,Italiano,>10,qualche_ora,sentito,no,ogni_tanto,mai,50.0,21,,si,A,D,N,V,D,A,D,D,rapporto,6.0,5.0,6.0,5.0,7.0,7.0,7.0,7.0,6.0,7.0,7.0,6.0,3.0,1.0,5.5,7.0,6.5,3.0,1.0
+P03,3,19,donna,Italiano,2-5,molte_ore,si,qualcuno,raramente,mai,50.0,27,,si,D,A,N,V,D,A,A,A,rapporto,6.0,5.0,6.0,5.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,2.0,1.0,5.5,7.0,7.0,2.0,1.0
+P04,4,27,uomo,Italiano,mai,mai,no,no,raramente,mai,50.0,31,,si,D,A,N,V,D,A,A,A,rapporto,5.0,5.0,6.0,5.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,6.0,5.0,1.0,5.25,7.0,6.75,5.0,1.0
+P05,1,31,uomo,Italiano,2-5,qualche_ora,sentito,qualcuno,ogni_tanto,mai,50.0,35,,si,A,N,D,V,D,A,A,A,rapporto,5.0,6.0,4.0,6.0,6.0,6.0,7.0,7.0,5.0,7.0,7.0,6.0,3.0,2.0,5.25,6.5,6.25,3.0,2.0
+P06,2,20,donna,Italiano,2-5,mai,no,no,raramente,mai,50.0,23,,si,A,D,N,V,D,A,D,D,rapporto,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,1.0,1.0,7.0,7.0,7.0,1.0,1.0
+P07,3,18,uomo,Italiano,>10,mai,no,no,mai,mai,50.0,28,,si,N,D,A,V,D,A,D,N,rapporto,6.0,5.0,7.0,6.0,6.0,5.0,6.0,7.0,7.0,6.0,6.0,6.0,4.0,3.0,6.0,6.0,6.25,4.0,3.0
+P08,4,41,uomo,Italiano,mai,mai,no,no,raramente,mai,50.0,31,,si,A,D,N,V,D,A,A,A,rapporto,6.0,6.0,5.0,5.0,6.0,5.0,6.0,6.0,4.0,6.0,6.0,6.0,4.0,3.0,5.5,5.75,5.5,4.0,3.0
+P09,1,24,donna,Italiano,2-5,qualche_ora,si,no,ogni_tanto,mai,50.0,24,,si,D,A,N,V,D,A,D,D,rapporto,6.0,6.0,7.0,4.0,6.0,6.0,7.0,7.0,7.0,7.0,7.0,7.0,2.0,1.0,5.75,6.5,7.0,2.0,1.0
+P10,2,19,donna,Italiano,2-5,mai,no,no,raramente,mai,50.0,24,,si,A,D,N,V,D,A,A,A,rapporto,7.0,5.0,7.0,5.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,2.0,3.0,6.0,6.0,6.0,2.0,3.0
+P11,3,25.0,uomo,Italiano,2026-05-02 00:00:00,qualche_ora,si,no,spesso,mai,50.0,31.0,,si,D,A,N,V,D,A,A,D,rapporto,6.0,4.0,6.0,5.0,6.0,6.0,6.0,7.0,7.0,7.0,5.0,6.0,3.0,1.0,5.25,6.25,6.25,3.0,1.0
+P12,4,23.0,donna,Italiano,mai,mai,no,no,spesso,mai,50.0,28.0,,si,A,D,N,V,D,A,A,A,rapporto,7.0,4.0,7.0,6.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,1.0,1.0,6.0,7.0,7.0,1.0,1.0
+P13,1,38.0,uomo,Italiano,<2,mai,no,no,mai,mai,50.0,32.0,,si,D,A,N,V,D,A,D,D,rapporto,7.0,6.0,5.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,1.0,1.0,6.0,6.0,6.0,1.0,1.0
+P14,2,18.0,uomo,Italiano,>10,mai,no,no,raramente,mai,50.0,26.0,,si,A,D,N,V,D,A,A,A,rapporto,6.0,5.0,6.0,6.0,6.0,6.0,6.0,7.0,6.0,6.0,6.0,6.0,1.0,1.0,5.75,6.25,6.0,1.0,1.0
+P15,3,19.0,donna,Italiano,2026-05-02 00:00:00,mai,no,no,ogni_tanto,mai,50.0,28.0,,si,D,N,A,V,D,A,D,D,rapporto,7.0,7.0,6.0,7.0,7.0,7.0,7.0,7.0,6.0,6.0,6.0,6.0,2.0,1.0,6.75,7.0,6.0,2.0,1.0
+P16,4,51.0,uomo,Italiano,<2,mai,no,no,raramente,mai,50.0,32.0,,si,N,A,D,V,D,A,A,N,rapporto,6.0,6.0,6.0,5.0,7.0,6.0,6.0,6.0,7.0,6.0,6.0,6.0,2.0,1.0,5.75,6.25,6.25,2.0,1.0
+P17,1,26.0,uomo,Italiano,2026-10-05 00:00:00,molte_ore,si,qualcuno,ogni_tanto,mai,50.0,30.0,,si,D,N,A,V,D,A,D,D,rapporto,6.0,6.0,5.0,4.0,5.0,5.0,5.0,5.0,6.0,4.0,4.0,4.0,4.0,1.0,5.25,5.0,4.5,4.0,1.0
+P18,2,38.0,donna,Italiano,mai,mai,no,no,raramente,mai,50.0,32.0,,si,D,N,A,V,D,A,D,D,rapporto,6.0,6.0,5.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,3.0,4.0,5.75,6.0,6.0,3.0,4.0
+P19,3,20.0,uomo,Italiano,2026-05-02 00:00:00,qualche_ora,si,molti,spesso,mai,50.0,33.0,,si,A,N,D,V,D,A,A,A,rapporto,7.0,7.0,6.0,7.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,1.0,1.0,6.75,6.0,6.0,1.0,1.0
+P20,4,21.0,donna,Italiano,mai,mai,no,no,ogni_tanto,mai,50.0,28.0,,si,A,D,N,V,D,A,D,A,rapporto,6.0,6.0,6.0,5.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,2.0,1.0,5.75,7.0,7.0,2.0,1.0
+P21,1,31.0,uomo,Italiano,<2,mai,no,no,mai,mai,50.0,28.0,,si,A,N,D,V,D,A,A,A,rapporto,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,2.0,1.0,6.0,6.0,6.0,2.0,1.0
+P22,2,24.0,donna,Italiano,2026-10-05 00:00:00,molte_ore,si,qualcuno,ogni_tanto,mai,50.0,30.0,,si,N,A,D,V,D,A,D,N,rapporto,6.0,6.0,5.0,5.0,7.0,6.0,7.0,7.0,6.0,6.0,6.0,6.0,3.0,2.0,5.5,6.75,6.0,3.0,2.0
+P23,3,38.0,uomo,Italiano,mai,mai,no,no,raramente,mai,50.0,31.0,,si,A,N,D,V,D,A,A,D,rapporto,6.0,6.0,5.0,5.0,6.0,6.0,6.0,7.0,6.0,6.0,6.0,6.0,3.0,4.0,5.5,6.25,6.0,3.0,4.0
+P24,4,23.0,uomo,Italiano,2026-10-05 00:00:00,mai,sentito,no,spesso,mai,50.0,28.0,,si,A,D,N,V,D,A,D,A,rapporto,6.0,4.0,5.0,4.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,3.0,1.0,4.75,6.0,6.0,3.0,1.0
+P25,1,31.0,uomo,Italiano,<2,mai,sentito,no,ogni_tanto,mai,50.0,34.0,,si,D,N,A,V,D,A,D,D,rapporto,7.0,7.0,6.0,7.0,6.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,2.0,1.0,6.75,6.75,7.0,2.0,1.0
+P26,2,19.0,donna,Italiano,2026-05-02 00:00:00,mai,no,no,ogni_tanto,mai,50.0,28.0,,si,A,D,N,V,D,A,A,A,rapporto,6.0,7.0,6.0,6.0,7.0,6.0,6.0,6.0,7.0,6.0,6.0,6.0,4.0,1.0,6.25,6.25,6.25,4.0,1.0
+P27,3,25.0,uomo,Italiano,>10,molte_ore,si,qualcuno,spesso,mai,50.0,30.0,,si,D,A,N,V,D,A,A,D,rapporto,5.0,6.0,5.0,6.0,5.0,6.0,6.0,7.0,6.0,7.0,6.0,7.0,1.0,1.0,5.5,6.0,6.5,1.0,1.0

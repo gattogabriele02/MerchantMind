@@ -1,0 +1,105 @@
+CONTROLLO UMANO DELLE ANOMALIE
+
+battute generate dal mercante: 227
+battute vuote: 0
+battute con almeno una cifra non riconducibile ai prezzi della trattativa: 0
+
+Una cifra e' considerata ammessa se coincide con un prezzo del mercante in
+quella trattativa (anche arrotondato) o con una cifra offerta dal giocatore.
+
+==============================================================================
+PARTE 1 - da controllare una per una: cifre non spiegate
+==============================================================================
+
+   Nessuna. Sulla categoria 'cifra non ammessa' il rilevatore
+   automatico e il controllo indipendente coincidono.
+==============================================================================
+PARTE 2 - campione casuale di 40 battute, da rileggere
+==============================================================================
+
+Per ciascuna, chiedersi soltanto:
+  a) espone il ragionamento interno del modello?
+  b) si presenta come assistente artificiale, o esce dal personaggio?
+  c) e' vuota o priva di senso?
+Segnare quante volte la risposta e' si'. Se e' zero, il rilevatore automatico
+e il giudizio umano concordano, ed e' il dato da riportare.
+
+ 1. [P02 lucan_valerius t3] 59 è troppo basso, ma per te scendo a 63.
+
+ 2. [P08 lucan_valerius t1] Visto che hai insistito tanto, posso venirti incontro: te la lascio a 66.
+
+ 3. [P15 lucan_valerius t1] Se insisti tanto, posso venirti incontro: te la lascio a 66.
+
+ 4. [P05 arcadia t0] Ecco, la spada è in ottime condizioni, pronta per il combattimento. Il prezzo è di 54 monete d'oro.
+
+ 5. [P21 belethor t1] Capisco che il viaggio ti è costato caro, quindi posso venirti incontro: te la lascio a 51.
+
+ 6. [P21 lucan_valerius t0] "Che c'entra la luna con il mio ferro? Se vuoi la spada, sono 67."
+
+ 7. [P01 lucan_valerius t4] 61 è un insulto, ma per chiudere subito posso scendere a 62.
+
+ 8. [P18 belethor t0] Dato che hai salvato Whiterun da Alduin, questa spada di ferro è tua a 54 monete d'oro. È un affare onesto per un eroe come te.
+
+ 9. [P26 arcadia t0] Ecco qui la spada di ferro, solida e pronta all'uso. Per te, visto che ci vediamo spesso, la lascio a 54 monete d'oro.
+
+10. [P19 belethor t2] 42 è un insulto al mio lavoro, ma per te faccio uno sforzo e scendo a 48.
+
+11. [P24 lucan_valerius t1] Beh, per non averti qui tutto il giorno a tergiversare, posso venirti incontro: te la lascio a 66.
+
+12. [P10 belethor t0] Con tutto il bene che ci siamo fatto, ti offro questa spada di ferro a 54 monete d'oro.
+
+13. [P26 lucan_valerius t2] 57 è un'offesa, ma per chiudere la questione posso accontentarmi di 64.
+
+14. [P11 arcadia t0] Questa spada di ferro è ancora in ottime condizioni, perfetta per chi cerca un'arma affidabile. Ve la cedo a 54 monete d'oro.
+
+15. [P25 arcadia t0] Ecco la spada di ferro che cercavi, un'arma solida per un'avventura. Ti la cedo a 54 monete d'oro.
+
+16. [P01 lucan_valerius t3] 60 è davvero troppo poco, ma per chiudere subito posso scendere a 62.
+
+17. [P07 lucan_valerius t0] Capisco che cerchi un affare, ma il metallo costa caro; posso scendere a 67, è il massimo che posso fare.
+
+18. [P16 belethor t0] Hai salvato la nostra città, eroe, quindi ti offro questa spada di ferro a un prezzo speciale di 54 monete. È un affare onesto, promesso.
+
+19. [P19 lucan_valerius t5] 62 è il mio prezzo finale, non scenderò di un centesimo.
+
+20. [P18 lucan_valerius t3] Sessantuno è un'offesa, ma per non farti andar via a mani vuote scendo a 63.
+
+21. [P21 arcadia t2] Mi dispiace, ma 51 è il limite assoluto per questa spada.
+
+22. [P17 lucan_valerius t1] Vabbè, ti vedo sincero: posso venirti incontro, te la lascio a 66.
+
+23. [P11 arcadia t1] Quaranta sono davvero poche per un pezzo di questa qualità, ma se insisti posso scendere a 53.
+
+24. [P26 belethor t0] “Ehi, amico. Dopo quello che hai fatto per Whiterun, ti do la mia spada di ferro a un prezzo speciale: solo 54 monete d’oro. Che ne dici?”
+
+25. [P17 belethor t0] Guarda, per te che hai salvato la nostra città dal drago, ti offro questa spada di ferro a 54 monete d'oro. È un prezzo onesto per un eroe come te.
+
+26. [P17 lucan_valerius t0] Sai bene che non mi fido di te, ma se proprio vuoi quella spada, il prezzo è 67.
+
+27. [P21 lucan_valerius t0] Visto che mi hai già fatto un brutto colpo, per questa spada di ferro ti chiedo 67. Non mi fido abbastanza da farti sconti.
+
+28. [P26 lucan_valerius t0] Dopo quel pasticcio con la merce rubata, non mi fido di te, ma se vuoi davvero quella spada di ferro, il prezzo è 67.
+
+29. [P06 lucan_valerius t1] 60? Ma dai, non mi offendi così tanto! Scendo a 66, è il minimo assoluto.
+
+30. [P26 arcadia t0] Sì, l'acciaio è stato temprato tre volte, regge anche agli urti più violenti. Per un cliente attento come te, il prezzo rimane fermo a 54.
+
+31. [P10 lucan_valerius t3] Non ho sentito bene, ripeti? Il prezzo resta 62.
+
+32. [P05 lucan_valerius t9] 51 è un'offesa, ma per te scendo a 62.
+
+33. [P27 arcadia t0] Ecco la spada di ferro che cercavi, un'arma solida e affidabile. Ti la cedo per 54 monete d'oro, un prezzo giusto per la qualità che vedi.
+
+34. [P23 lucan_valerius t2] Sessanta sono un insulto alla mia reputazione, ma per un sorriso sincero posso scendere a 64.
+
+35. [P06 belethor t0] È un piacere servirvi dopo l'eroico gesto alla Torre di Guardia Ovest, amico. Per questa spada di ferro vi chiedo solo 54 monete d'oro.
+
+36. [P05 lucan_valerius t10] 53 è troppo poco, ma scendo a 62.
+
+37. [P21 belethor t0] Grazie ancora per aver salvato Whiterun da Alduin, ero in debito con te. Ti offro questa spada di ferro a 54 monete d'oro, un affare onesto per un eroe.
+
+38. [P20 arcadia t3] 45 sono davvero pochi, ma per non perderti come cliente scendo a 49.
+
+39. [P10 belethor t1] Senti, visto che ci mettiamo d'accordo, posso venirti incontro: te la lascio a 51.
+
+40. [P09 belethor t0] Hai salvato la nostra città, amico, quindi per te quella spada di ferro è a 54 monete d'oro, un affare davvero onesto.
